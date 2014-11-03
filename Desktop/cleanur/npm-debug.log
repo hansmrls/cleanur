@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-bower-package' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'generator-bower-package', null ]
+5 verbose cache add name=undefined spec="generator-bower-package" args=["generator-bower-package",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-bower-package',
+6 verbose parsed url   path: 'generator-bower-package',
+6 verbose parsed url   href: 'generator-bower-package' }
+7 silly lockFile e87646e9-generator-bower-package generator-bower-package
+8 verbose lock generator-bower-package /Users/mengsong/.npm/e87646e9-generator-bower-package.lock
+9 silly lockFile e87646e9-generator-bower-package generator-bower-package
+10 silly lockFile e87646e9-generator-bower-package generator-bower-package
+11 verbose addNamed [ 'generator-bower-package', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile bb92212f-generator-bower-package generator-bower-package@
+14 verbose lock generator-bower-package@ /Users/mengsong/.npm/bb92212f-generator-bower-package.lock
+15 silly addNameRange { name: 'generator-bower-package', range: '*', hasData: false }
+16 verbose request where is /generator-bower-package
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 57735739031c2d24
+19 verbose url raw /generator-bower-package
+20 verbose url resolving [ 'https://registry.npmjs.org/', './generator-bower-package' ]
+21 verbose url resolved https://registry.npmjs.org/generator-bower-package
+22 verbose request where is https://registry.npmjs.org/generator-bower-package
+23 info trying registry request attempt 1 at 17:35:45
+24 http GET https://registry.npmjs.org/generator-bower-package
+25 http 200 https://registry.npmjs.org/generator-bower-package
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Fri, 31 Oct 2014 21:35:40 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"3LU874XBGY9AKYQ0ZMJUIM4O3"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '5663',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-iad2134-IAD',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1414791340.175010,VS0,VE56',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'generator-bower-package', range: '*', hasData: true }
+28 silly addNameRange versions [ 'generator-bower-package', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+29 verbose addNamed [ 'generator-bower-package', '0.0.3' ]
+30 verbose addNamed [ '0.0.3', '0.0.3' ]
+31 silly lockFile ca304b51-generator-bower-package-0-0-3 generator-bower-package@0.0.3
+32 verbose lock generator-bower-package@0.0.3 /Users/mengsong/.npm/ca304b51-generator-bower-package-0-0-3.lock
+33 silly lockFile 5ffcf063-enerator-bower-package-0-0-3-tgz https://registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz
+34 verbose lock https://registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz /Users/mengsong/.npm/5ffcf063-enerator-bower-package-0-0-3-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz',
+35 verbose addRemoteTarball   '1d591c8e3cb81890e84ba4892d53517f3bb2a760' ]
+36 info retry fetch attempt 1 at 17:35:46
+37 verbose fetch to= /var/folders/c0/t1fxvzz141d7w2dtyw738jx80000gn/T/npm-6358-_brKsH6n/registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz
+38 http GET https://registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz
+39 http 200 https://registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz
+40 silly lockFile 5ffcf063-enerator-bower-package-0-0-3-tgz https://registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz
+41 silly lockFile 5ffcf063-enerator-bower-package-0-0-3-tgz https://registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz
+42 silly lockFile ca304b51-generator-bower-package-0-0-3 generator-bower-package@0.0.3
+43 silly lockFile ca304b51-generator-bower-package-0-0-3 generator-bower-package@0.0.3
+44 silly lockFile bb92212f-generator-bower-package generator-bower-package@
+45 silly lockFile bb92212f-generator-bower-package generator-bower-package@
+46 silly resolved [ { name: 'generator-bower-package',
+46 silly resolved     version: '0.0.3',
+46 silly resolved     description: 'Yeoman Bower component project development generator',
+46 silly resolved     license: 'MIT',
+46 silly resolved     main: 'app/index.js',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/yuvalsaraf/generator-bower-package' },
+46 silly resolved     author: { url: 'https://github.com/yuvalsaraf' },
+46 silly resolved     engines: { node: '>=0.10.0' },
+46 silly resolved     scripts: { test: 'mocha' },
+46 silly resolved     files: [ 'app' ],
+46 silly resolved     keywords: [ 'yeoman-generator', 'bower', 'component', 'package' ],
+46 silly resolved     dependencies:
+46 silly resolved      { 'yeoman-generator': '~0.16.0',
+46 silly resolved        chalk: '~0.4.0',
+46 silly resolved        yosay: '^0.1.0' },
+46 silly resolved     devDependencies: { mocha: '*' },
+46 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+46 silly resolved     bugs: { url: 'https://github.com/yuvalsaraf/generator-bower-package/issues' },
+46 silly resolved     homepage: 'https://github.com/yuvalsaraf/generator-bower-package',
+46 silly resolved     directories: { test: 'test' },
+46 silly resolved     _id: 'generator-bower-package@0.0.3',
+46 silly resolved     dist:
+46 silly resolved      { shasum: '1d591c8e3cb81890e84ba4892d53517f3bb2a760',
+46 silly resolved        tarball: 'http://registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz' },
+46 silly resolved     _from: 'generator-bower-package@',
+46 silly resolved     _npmVersion: '1.4.6',
+46 silly resolved     _npmUser: { name: 'yuvalsaraf', email: 'ratchetxys@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     _shasum: '1d591c8e3cb81890e84ba4892d53517f3bb2a760',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/generator-bower-package/-/generator-bower-package-0.0.3.tgz' } ]
+47 info install generator-bower-package@0.0.3 into /usr/local/lib
+48 info installOne generator-bower-package@0.0.3
+49 verbose lib/node_modules/generator-bower-package unbuild
+50 verbose tar unpack /Users/mengsong/.npm/generator-bower-package/0.0.3/package.tgz
+51 silly lockFile 02c1d20f--modules-generator-bower-package tar:///usr/local/lib/node_modules/generator-bower-package
+52 verbose lock tar:///usr/local/lib/node_modules/generator-bower-package /Users/mengsong/.npm/02c1d20f--modules-generator-bower-package.lock
+53 silly lockFile c1bb34b7--bower-package-0-0-3-package-tgz tar:///Users/mengsong/.npm/generator-bower-package/0.0.3/package.tgz
+54 verbose lock tar:///Users/mengsong/.npm/generator-bower-package/0.0.3/package.tgz /Users/mengsong/.npm/c1bb34b7--bower-package-0-0-3-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-bower-package'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-bower-package']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/generator-bower-package',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/generator-bower-package',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 12.5.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-bower-package"
+60 error cwd /Users/mengsong/Desktop/cleanur
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/generator-bower-package
+64 error fstream_path /usr/local/lib/node_modules/generator-bower-package
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-bower-package'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
