@@ -49,8 +49,42 @@
             
           </div>
         </div>
-        <a class="login" href="#">Login or Join us....</a>
+        <a class="login" href="#">Login</a>
+
+        <!--logIn Form Begin-->
+            <div class="container" id="login-form">
+      <div class="row">
+          <div class="col-xs-12">
+              <div class="form-wrap">
+                <h1>Please Log in</h1>
+                    <form role="form" action="javascript:;" method="post" autocomplete="off">
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Email</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="key" class="sr-only">Password</label>
+                            <input type="password" name="key" id="key" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="checkbox">
+                            <span class="character-checkbox" onclick="showPassword()"></span>
+                            <span class="label">Show password</span>
+                        </div>
+                        <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Log in">
+                    </form>
+                    <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal">Forgot your password?</a>
+                    <hr>
+              </div>
+        </div> <!-- /.col-xs-12 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+        <!-- LogIn form End-->
+        <span class="or">or</span>
+        <a class="join"href="#">Join Us...</a>
       </section>
+      <section class="page2 section"></section>
+      <section class="page3 section"></section>
+      <section class="page4 section"></section>
     </div>
 
 
@@ -100,6 +134,7 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/jquery.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <!-- endbuild -->
